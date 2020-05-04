@@ -1,2 +1,2 @@
 # georgeherbert.github.io
-my websitee
+my website
