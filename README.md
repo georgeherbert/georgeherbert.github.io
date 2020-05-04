@@ -1,2 +1,3 @@
 # georgeherbert.github.io
-my website
+
+A basic website for myself
