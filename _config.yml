@@ -1,0 +1,17 @@
+# Site settings
+title: George Herbert
+email: george.herbert@me.com
+description: >- # this means to ignore newlines until "baseurl:"
+  George Herbert's personal website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://georgeherbert.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: georgeherberttt
+github_username:  georgeherbert
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+
