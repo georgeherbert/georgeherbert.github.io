@@ -6,11 +6,11 @@ header {
   border-bottom: 5px solid black;
   padding: 15px 0px; }
 
-a, a:visited, a.current, a.current:visited {
+a.nav, a.nav:visited, a.current, a.current:visited {
   text-decoration: none;
   padding: 5px; }
 
-a, a:visited {
+a.nav, a.nav:visited {
   color: black; }
 
 a.current, a.current:visited {
@@ -22,3 +22,10 @@ h1, p {
 
 #name {
   text-align: center; }
+
+#images {
+  text-align: center; }
+
+img {
+  height: 25px;
+  margin: 0 5px; }
