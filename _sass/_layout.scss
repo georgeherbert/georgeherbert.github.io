@@ -2,20 +2,30 @@ body {
     max-width: 800px;
     margin: auto;
 }
-
-ul {
+header {
+    border-bottom: 5px solid black;
+    padding: 10px 0px;
+}
+nav > ul {
     margin: 0;
     padding: 0;
 }
-
-li {
+nav > ul > li {
     display: inline;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+h1, p {
+    margin: 10px 0px;
 }
 
-h1 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
+#name {
+    text-align: center;
 }
