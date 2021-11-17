@@ -4,23 +4,18 @@ body {
 
 header {
   border-bottom: 5px solid black;
-  padding: 10px 0px; }
+  padding: 15px 0px; }
 
-nav > ul {
-  margin: 0;
-  padding: 0; }
-
-nav > ul > li {
-  display: inline;
-  margin-right: 10px; }
-
-a {
+a, a:visited, a.current, a.current:visited {
   text-decoration: none;
+  padding: 5px; }
+
+a, a:visited {
   color: black; }
 
-a:visited {
-  text-decoration: none;
-  color: black; }
+a.current, a.current:visited {
+  background-color: black;
+  color: white; }
 
 h1, p {
   margin: 10px 0px; }
