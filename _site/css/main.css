@@ -1,3 +1,6 @@
+html {
+  font-size: 100%; }
+
 body {
   max-width: 800px;
   margin: auto;
@@ -8,6 +11,9 @@ body {
 header {
   border-bottom: 5px solid black;
   padding: 15px 0px; }
+
+a {
+  font-size: 1rem; }
 
 a.nav, a.nav:visited, a.current, a.current:visited {
   text-decoration: none;
@@ -22,6 +28,12 @@ a.current, a.current:visited {
 
 h1, p {
   margin: 10px 0px; }
+
+h1 {
+  font-size: 2rem; }
+
+p {
+  font-size: 1rem; }
 
 #name {
   text-align: center; }
