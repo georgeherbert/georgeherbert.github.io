@@ -2,7 +2,7 @@ html {
   font-size: 100%; }
 
 body {
-  max-width: 800px;
+  max-width: 750px;
   margin: auto;
   padding: 0px 10px;
   font-family: 'Source Serif Pro', serif;
@@ -16,18 +16,18 @@ header {
 a {
   font-size: 1rem; }
 
-a.nav, a.nav:visited, a.current, a.current:visited {
+nav > a, nav > a:visited {
   text-decoration: none;
   padding: 5px; }
 
-a.nav, a.nav:visited {
+a.unselected, a.selected:visited {
   color: black; }
 
-a.current, a.current:visited {
+a.selected, a.selected:visited {
   background-color: black;
   color: white; }
 
-h1, p {
+h1, h2, p {
   margin: 10px 0px; }
 
 h1 {
